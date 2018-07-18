@@ -12,21 +12,19 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 /* The navigation menu links */
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
+svg {
+    height: 26px;
+    margin-bottom: 40px;
+
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a img :hover {
-
+svg:hover {
+  fill: blue;
 }
 
 /* Style page content */
