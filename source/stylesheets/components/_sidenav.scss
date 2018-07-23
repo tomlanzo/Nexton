@@ -4,22 +4,46 @@
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 60px; /* Set the width of the sidebar */
     position: absolute; /* Fixed Sidebar (stay in place on scroll) */
-    top: 69px; /* Stay at the top */
+    top: 70px; /* Stay at the top */
     left: 0;
-    background-color: transparent; /* Black */
+    background-color: white; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     padding-bottom: 25px;
+    transition: 0.8s ease;
+}
+
+.element {
+
+   p {
+    display:none;
+    transition: 5s ease;
+
+   }
+}
+
+.sidenav:hover {
+  width: 150px;
+}
+
+.sidenav:hover .element {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sidenav:hover .element p {
+  display: initial;
 }
 
 /* The navigation menu links */
 svg {
     height: 26px;
     margin-bottom: 40px;
-
+    transition: 0.2s ease;
 }
 
 /* When you mouse over the navigation links, change their color */
